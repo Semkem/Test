@@ -1,0 +1,10 @@
+[
+  {"name":"Viniculture","era":"Medieval","cost":100,"grants":["Vignoble","Academie de Mode"]},
+  {"name":"Chanson de Geste","era":"Classical","cost":90,"grants":[],"civilopediaText":["Early cultural tech boosting local culture."]},
+  {"name":"Gothic Masonry","era":"Medieval","cost":240,"grants":["Gothic Cathedral"]},
+  {"name":"Court Diplomacy","era":"Renaissance","cost":480,"grants":[],"civilopediaText":["Improves diplomatic actions."]},
+  {"name":"Siecle des Lumieres","era":"Renaissance","cost":300,"grants":["Salon Litteraire"],"civilopediaText":["Unlocks Enlightenment-era institutions; reduces enemy spy efficiency."]},
+  {"name":"Revolutionary Administration","era":"Industrial","cost":300,"prerequisites":["Grande Armée Tactics"],"grants":["Industrial Engineers Corps"],"civilopediaText":["Administrative reforms for France."]},
+  {"name":"Revolution Culturelle","era":"Industrial","cost":420,"grants":["Palais des Arts","Elysee Palace"],"civilopediaText":["Mass cultural programs; increases tourism and loyalty growth."]},
+  {"name":"Academie des Sciences","era":"Industrial","cost":520,"grants":["Academie Laboratory"],"civilopediaText":["Advanced scientific institutions."]}
+]
