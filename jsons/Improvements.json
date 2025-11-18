@@ -1,0 +1,7 @@
+[
+  {"name":"Vignoble","improvementType":"Vineyard","buildCost":60,"food":1,"gold":3,"culture":1,"uniques":["If owner is France: Add [1] Loyalty to city"],"civilopediaText":["Vineyard: gold + culture and small loyalty boost for France."]},
+  {"name":"Chateau Royal","improvementType":"Chateau","buildCost":120,"food":0,"gold":2,"culture":2,"uniques":["Add [1] Tourism"],"civilopediaText":["Royal chateau that provides culture and tourism."]},
+  {"name":"Jardin Parisien","improvementType":"ParisianGarden","buildCost":80,"food":1,"culture":1,"happiness":2,"uniques":["Add [5] Loyalty on build"],"civilopediaText":["Garden: happiness + loyalty."]},
+  {"name":"Camp Militaire","improvementType":"MilitaryCamp","buildCost":70,"production":1,"uniques":["Add [1] XP to units trained in adjacent city"],"civilopediaText":["Military camp: production and XP bonus."]},
+  {"name":"Atelier Artistique","improvementType":"ArtistsAtelier","buildCost":90,"culture":2,"uniques":["Add [2] Tourism","Increase GreatArtistChance:10%"],"civilopediaText":["Artist atelier: culture and tourism; increases chance of great artists."]}
+]
