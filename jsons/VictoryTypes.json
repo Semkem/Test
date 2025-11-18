@@ -1,0 +1,15 @@
+[
+  {
+    "name": "Tourism Victory",
+    "victoryScreenHeader": "World Cultural Supremacy",
+    "victoryString": "You won by overwhelming the world with your tourism and culture!",
+    "defeatString": "Another civ dominated the world's culture and tourism.",
+    "hiddenInVictoryScreen": false,
+    "Milestones": [
+      "Have TourismInfluence >= 1.0 against each civ AND Era >= Industrial AND TotalTourism >= 150"
+    ],
+    "civilopediaText": [
+      { "text": "Win by converting other civilizations culturally: your total tourism relative to their culture must reach dominance." }
+    ]
+  }
+]
