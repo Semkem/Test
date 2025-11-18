@@ -1,0 +1,30 @@
+[
+  {
+    "branchName":"L'Age des Lumieres",
+    "era":"Renaissance",
+    "policies":[
+      {"name":"Rationalite Francaise","uniques":[{"type":"addCityCulture","value":1}]},
+      {"name":"Esprit Artistique","uniques":[{"type":"addTourismPercent","value":5}]},
+      {"name":"Academies","uniques":[{"type":"addSciencePercent","value":5}]}
+    ],
+    "finisher":{"name":"Lumiere Finale","uniques":[{"type":"addCulturePercent","value":10},{"type":"addTourismPercent","value":10}]}
+  },
+  {
+    "branchName":"Doctrine Napoleonienne",
+    "era":"Industrial",
+    "policies":[
+      {"name":"Offensive","uniques":[{"type":"meleeAttackPercent","value":10}]},
+      {"name":"Conscription","uniques":[{"type":"unitXPbonus","value":10}]}
+    ],
+    "finisher":{"name":"Aigle Impérial","uniques":[{"type":"combatStrengthPercentOnHomeContinent","value":15}]}
+  },
+  {
+    "branchName":"Traditions Bourgeoises",
+    "era":"Industrial",
+    "policies":[
+      {"name":"Marché Central","uniques":[{"type":"goldFromTradeRoute","value":1}]},
+      {"name":"Bourse","uniques":[{"type":"addGold","value":2}]}
+    ],
+    "finisher":{"name":"Capitalisme Francais","uniques":[{"type":"addGoldPercent","value":10},{"type":"addHappiness","value":2}]}
+  }
+]
