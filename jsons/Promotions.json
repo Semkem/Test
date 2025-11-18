@@ -1,0 +1,26 @@
+[
+  {
+    "name": "ForestSkirmisher",
+    "description": "Bonus in forest and jungle.",
+    "effects":[{"type":"combatStrengthOnTerrain","terrain":"Forest","value":15},{"type":"combatStrengthOnTerrain","terrain":"Jungle","value":10}],
+    "uniqueTo":"France"
+  },
+  {
+    "name":"AntiPikePenalty",
+    "description":"Vulnerable to pikemen.",
+    "effects":[{"type":"combatPenaltyAgainstUnitType","unitType":"Pike","value":20}],
+    "uniqueTo":"France"
+  },
+  {
+    "name":"CityVeteran",
+    "description":"Bonus fighting in cities.",
+    "effects":[{"type":"combatStrengthInCity","value":20}],
+    "uniqueTo":"France"
+  },
+  {
+    "name":"MountainExpert",
+    "description":"Bonus on hills.",
+    "effects":[{"type":"combatStrengthOnTerrain","terrain":"Hill","value":15}],
+    "uniqueTo":"France"
+  }
+]
