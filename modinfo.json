@@ -1,0 +1,24 @@
+{
+  "id": "france-xxl-complete",
+  "name": "France XXL — Complete Overhaul (Loyalty, Tourism, Capture)",
+  "author": "Semyon + ChatGPT",
+  "version": "1.0",
+  "description": "France XXL: 15 unique units, unique buildings, loyalty (0-1000), city-level tourism, capture menu, spies & ecology integration, promotions and balancing debuffs. Compatible with Unciv 4.18.14.",
+  "gameVersion": "4.18.14",
+  "files": [
+    "jsons/Nations.json",
+    "jsons/Units.json",
+    "jsons/Promotions.json",
+    "jsons/Buildings.json",
+    "jsons/Improvements.json",
+    "jsons/Resources.json",
+    "jsons/Techs.json",
+    "jsons/Policies.json",
+    "jsons/VictoryTypes.json",
+    "jsons/Triggers.json",
+    "jsons/CaptureRules.json",
+    "jsons/Localisation_en.json",
+    "jsons/Localisation_ru.json",
+    "README.md"
+  ]
+}
