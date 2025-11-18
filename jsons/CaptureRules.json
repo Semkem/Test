@@ -1,0 +1,30 @@
+[
+  {
+    "name":"City Capture Menu Handler",
+    "trigger":"OnChoiceMade",
+    "priority":30,
+    "actions":[
+      {
+        "if":{
+          "condition":"choice == 'Preserve All Buildings'",
+          "then":[{"removeBuilding":"City Capture Menu"},{"addStatusToCity":{"status":"CaptureChoiceTaken","turns":1}}]
+        }
+      },
+      {
+        "if":{
+          "condition":"choice == 'Demolish Specific'",
+          "then":[
+            {"forEachBuildingInCity":{
+              "effects":[
+                {"presentChoiceToPlayer":"Destroy building {buildingName}? ReceiveResourcesBasedOnEraAndCost"},
+                {"ifChoiceTaken":"destroyBuildingAndGrantResources"}
+              ]
+            }},
+            {"removeBuilding":"City Capture Menu"},
+            {"addStatusToCity":{"status":"CaptureChoiceTaken","turns":1}}
+          ]
+        }
+      }
+    ]
+  }
+]
