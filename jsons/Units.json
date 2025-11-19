@@ -6,7 +6,9 @@
     "movement": 2,
     "strength": 12,
     "uniqueTo": "France",
-    "civilopediaText": ["Early ranged unit with small siege bonus"],
+    "civilopediaText": [
+      { "text": "Early ranged unit with a small bonus against cities." }
+    ],
     "notes": "-10% vs cavalry"
   },
   {
@@ -16,7 +18,9 @@
     "movement": 2,
     "strength": 18,
     "uniqueTo": "France",
-    "civilopediaText": ["Early melee cavalry"],
+    "civilopediaText": [
+      { "text": "Early knight unit with a small bonus against barbarians." }
+    ],
     "notes": "-15% in marsh"
   },
   {
@@ -26,7 +30,9 @@
     "movement": 2,
     "strength": 20,
     "uniqueTo": "France",
-    "civilopediaText": ["Improved crossbow unit"],
+    "civilopediaText": [
+      { "text": "Crossbow-like ranged unit with improved defensive ability." }
+    ],
     "notes": "-10% vs pikemen"
   },
   {
@@ -36,7 +42,9 @@
     "movement": 2,
     "strength": 24,
     "uniqueTo": "France",
-    "civilopediaText": ["Strong firearm unit"],
+    "civilopediaText": [
+      { "text": "Musketeer unit with increased strength against cities." }
+    ],
     "notes": "-15% in marsh"
   },
   {
@@ -46,7 +54,9 @@
     "movement": 3,
     "strength": 28,
     "uniqueTo": "France",
-    "civilopediaText": ["Elite cavalry unit"],
+    "civilopediaText": [
+      { "text": "Elite cavalry unit with a chance to counterattack." }
+    ],
     "notes": "-20% vs pikemen"
   },
   {
@@ -56,8 +66,10 @@
     "movement": 2,
     "strength": 36,
     "uniqueTo": "France",
-    "civilopediaText": ["Napoleonic guard infantry"],
-    "notes": "-10% ranged defense, -15% in marsh"
+    "civilopediaText": [
+      { "text": "Napoleonic heavy infantry with strong defensive bonuses." }
+    ],
+    "notes": "-10% ranged defense; -15% in marsh"
   },
   {
     "name": "Voltigeur",
@@ -66,8 +78,10 @@
     "movement": 3,
     "strength": 18,
     "uniqueTo": "France",
-    "civilopediaText": ["Light mobile infantry"],
-    "notes": "-10% on open plain"
+    "civilopediaText": [
+      { "text": "Light mobile infantry with bonuses in forests." }
+    ],
+    "notes": "-10% on open plains"
   },
   {
     "name": "Tirailleur Colonial",
@@ -76,8 +90,10 @@
     "movement": 2,
     "strength": 22,
     "uniqueTo": "France",
-    "civilopediaText": ["Colonial infantry unit"],
-    "notes": "-10% cold climates"
+    "civilopediaText": [
+      { "text": "Colonial infantry with bonuses in jungle and warm climates." }
+    ],
+    "notes": "-10% in cold climates"
   },
   {
     "name": "Cuirassier Republican",
@@ -86,17 +102,21 @@
     "movement": 3,
     "strength": 34,
     "uniqueTo": "France",
-    "civilopediaText": ["Armored cavalry unit"],
-    "notes": "-20% vs spears"
+    "civilopediaText": [
+      { "text": "Armored cavalry with +1 movement after killing a unit." }
+    ],
+    "notes": "-20% vs spear units"
   },
   {
     "name": "Chasseur Alpin",
     "unitType": "Melee",
     "cost": 90,
     "movement": 2,
-    "strength": 26,
+       "strength": 26,
     "uniqueTo": "France",
-    "civilopediaText": ["Alpine infantry"],
+    "civilopediaText": [
+      { "text": "Alpine infantry with +10 strength on hills." }
+    ],
     "notes": "-10% on plains"
   },
   {
@@ -106,8 +126,10 @@
     "movement": 3,
     "strength": 40,
     "uniqueTo": "France",
-    "civilopediaText": ["WWI era tank"],
-    "notes": "-20% vs anti-tank"
+    "civilopediaText": [
+      { "text": "Early WWI tank effective against infantry and fortifications." }
+    ],
+    "notes": "-20% vs anti-tank units"
   },
   {
     "name": "Char B1",
@@ -116,8 +138,10 @@
     "movement": 3,
     "strength": 48,
     "uniqueTo": "France",
-    "civilopediaText": ["Heavy tank"],
-    "notes": "-15% vs aircraft support"
+    "civilopediaText": [
+      { "text": "Interwar heavy tank with strong defensive stats against cities." }
+    ],
+    "notes": "-15% vs aircraft-supported attacks"
   },
   {
     "name": "AMX-56 Leclerc",
@@ -126,7 +150,9 @@
     "movement": 4,
     "strength": 70,
     "uniqueTo": "France",
-    "civilopediaText": ["Modern battle tank"],
+    "civilopediaText": [
+      { "text": "Modern main battle tank with superior mobility and fire control." }
+    ],
     "notes": "-10% in marsh"
   },
   {
@@ -136,8 +162,10 @@
     "movement": 6,
     "strength": 55,
     "uniqueTo": "France",
-    "civilopediaText": ["Modern fighter aircraft"],
-    "notes": "-10% vs modern SAMs"
+    "civilopediaText": [
+      { "text": "Modern fighter aircraft with intercept bonus and strike capability." }
+    ],
+    "notes": "-10% vs modern SAM systems"
   },
   {
     "name": "Commandos Marine",
@@ -146,7 +174,9 @@
     "movement": 4,
     "strength": 42,
     "uniqueTo": "France",
-    "civilopediaText": ["Elite amphibious unit"],
+    "civilopediaText": [
+      { "text": "Elite naval commandos with amphibious and guerilla bonuses." }
+    ],
     "notes": "-10% vs mechanized units"
   }
 ]
