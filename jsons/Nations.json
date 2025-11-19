@@ -1,29 +1,38 @@
 [
   {
     "name": "France",
-    "type": "France",
-    "icon": "NationIcons/FranceIcon.png",
-    "capitalName": "Paris",
-    "startBias": "Plains",
-    "personality": "Napoleon",
-    "preferredVictory": "Culture",
-    "traits": [
-      {
-        "name": "EspritFrancais",
-        "description": "France: +25% Tourism from cultural buildings and wonders; +10% Great Person rate; unique buildings give Loyalty bonuses. Has administrative overhead (balancing).",
-        "effects": [
-          {"type":"addTourismPercent","value":25, "scope":"fromCulturalBuildings"},
-          {"type":"greatPersonRatePercent","value":10},
-          {"type":"unitStartXP","value":10},
-          {"type":"unitMaintenancePercent","value":15},
-          {"type":"buildingMaintenancePercent","value":10}
-        ]
-      }
+    "leaderName": "Napoleon III",
+    "adjective": "French",
+    "startBias": ["Plains"],
+    "uniqueTo": "France",
+    "preferredVictoryType": "Cultural",
+    "uniqueUnits": [
+      "Franc Archer",
+      "Chevalier Franc",
+      "Arbaletrie Bourguignon",
+      "Mousquetaire du Roi",
+      "Chevalier Royal",
+      "Garde Imperiale",
+      "Voltigeur",
+      "Tirailleur Colonial",
+      "Cuirassier Republican",
+      "Chasseur Alpin",
+      "Char Schneider CA1",
+      "Char B1",
+      "AMX-56 Leclerc",
+      "Mirage 2000",
+      "Commandos Marine"
     ],
     "uniqueBuildings": [
       "Palais des Arts",
+      "Salon Litteraire",
       "Academie de Mode",
-      "Elysee Palace"
+      "Elysee Palace",
+      "Industrial Engineers Corps"
+    ],
+    "civilopediaText": [
+      { "text": "France has a long cultural and military history, reflected in a unique array of units and buildings." },
+      { "text": "This version of France is built for loyalty mechanics, tourism and advanced diplomacy." }
     ]
   }
 ]
