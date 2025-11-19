@@ -1,17 +1,152 @@
 [
-  {"name":"Franc Archer","unitType":"Ranged","cost":40,"movement":2,"strength":12,"uniqueTo":"France","civilopediaText":["Early archer variant with small siege bonus."],"notes":"-10% vs cavalry"},
-  {"name":"Chevalier Franc","unitType":"Melee","cost":60,"movement":2,"strength":18,"uniqueTo":"France","civilopediaText":["Early knight, bonus vs. barbarians."],"notes":"-15% in marsh"},
-  {"name":"Arbaletrie Bourguignon","unitType":"Ranged","cost":55,"movement":2,"strength":20,"uniqueTo":"France","civilopediaText":["Crossbow-like unit with good defensive values."],"notes":"-10% vs pikemen"},
-  {"name":"Mousquetaire du Roi","unitType":"Ranged","cost":80,"movement":2,"strength":24,"uniqueTo":"France","civilopediaText":["Musketeer with bonus vs cities."],"notes":"-15% in marsh"},
-  {"name":"Chevalier Royal","unitType":"Melee","cost":90,"movement":3,"strength":28,"uniqueTo":"France","civilopediaText":["Elite cavalry; counterattack chance."],"notes":"-20% vs pikemen"},
-  {"name":"Garde Imperiale","unitType":"Melee","cost":120,"movement":2,"strength":36,"uniqueTo":"France","civilopediaText":["Napoleonic heavy infantry — strong in defense."],"notes":"-10% ranged defense, -15% in marsh"},
-  {"name":"Voltigeur","unitType":"Ranged","cost":70,"movement":3,"strength":18,"uniqueTo":"France","civilopediaText":["Light mobile infantry; + in forests."],"notes":"-10% on open plain"},
-  {"name":"Tirailleur Colonial","unitType":"Melee","cost":75,"movement":2,"strength":22,"uniqueTo":"France","civilopediaText":["Colonial infantry — bonus in jungle/warm climates."],"notes":"-10% cold climates"},
-  {"name":"Cuirassier Republican","unitType":"Melee","cost":110,"movement":3,"strength":34,"uniqueTo":"France","civilopediaText":["Armored cavalry — +movement on kill."],"notes":"-20% vs spears"},
-  {"name":"Chasseur Alpin","unitType":"Melee","cost":90,"movement":2,"strength":26,"uniqueTo":"France","civilopediaText":["Alpine troops — +10 strength on hills."],"notes":"-10% on plains"},
-  {"name":"Char Schneider CA1","unitType":"Armored","cost":130,"movement":3,"strength":40,"uniqueTo":"France","civilopediaText":["WWI-era tank; good vs infantry and fortifications."],"notes":"-20% vs anti-tank"},
-  {"name":"Char B1","unitType":"Armored","cost":200,"movement":3,"strength":48,"uniqueTo":"France","civilopediaText":["Interwar heavy tank — high defense vs cities."],"notes":"-15% vs aircraft support"},
-  {"name":"AMX-56 Leclerc","unitType":"Armored","cost":300,"movement":4,"strength":70,"uniqueTo":"France","civilopediaText":["Modern MBT — fast and accurate."],"notes":"-10% in marsh"},
-  {"name":"Mirage 2000","unitType":"Air","cost":220,"movement":6,"strength":55,"uniqueTo":"France","civilopediaText":["Modern fighter — intercept bonus and strike ability."],"notes":"-10% vs modern SAMs"},
-  {"name":"Commandos Marine","unitType":"Melee","cost":180,"movement":4,"strength":42,"uniqueTo":"France","civilopediaText":["Elite naval commandos — amphibious + guerilla bonuses."],"notes":"-10% vs mechanized units"}
+  {
+    "name": "Franc Archer",
+    "unitType": "Ranged",
+    "cost": 40,
+    "movement": 2,
+    "strength": 12,
+    "uniqueTo": "France",
+    "civilopediaText": ["Early ranged unit with small siege bonus"],
+    "notes": "-10% vs cavalry"
+  },
+  {
+    "name": "Chevalier Franc",
+    "unitType": "Melee",
+    "cost": 60,
+    "movement": 2,
+    "strength": 18,
+    "uniqueTo": "France",
+    "civilopediaText": ["Early melee cavalry"],
+    "notes": "-15% in marsh"
+  },
+  {
+    "name": "Arbaletrie Bourguignon",
+    "unitType": "Ranged",
+    "cost": 55,
+    "movement": 2,
+    "strength": 20,
+    "uniqueTo": "France",
+    "civilopediaText": ["Improved crossbow unit"],
+    "notes": "-10% vs pikemen"
+  },
+  {
+    "name": "Mousquetaire du Roi",
+    "unitType": "Ranged",
+    "cost": 80,
+    "movement": 2,
+    "strength": 24,
+    "uniqueTo": "France",
+    "civilopediaText": ["Strong firearm unit"],
+    "notes": "-15% in marsh"
+  },
+  {
+    "name": "Chevalier Royal",
+    "unitType": "Melee",
+    "cost": 90,
+    "movement": 3,
+    "strength": 28,
+    "uniqueTo": "France",
+    "civilopediaText": ["Elite cavalry unit"],
+    "notes": "-20% vs pikemen"
+  },
+  {
+    "name": "Garde Imperiale",
+    "unitType": "Melee",
+    "cost": 120,
+    "movement": 2,
+    "strength": 36,
+    "uniqueTo": "France",
+    "civilopediaText": ["Napoleonic guard infantry"],
+    "notes": "-10% ranged defense, -15% in marsh"
+  },
+  {
+    "name": "Voltigeur",
+    "unitType": "Ranged",
+    "cost": 70,
+    "movement": 3,
+    "strength": 18,
+    "uniqueTo": "France",
+    "civilopediaText": ["Light mobile infantry"],
+    "notes": "-10% on open plain"
+  },
+  {
+    "name": "Tirailleur Colonial",
+    "unitType": "Melee",
+    "cost": 75,
+    "movement": 2,
+    "strength": 22,
+    "uniqueTo": "France",
+    "civilopediaText": ["Colonial infantry unit"],
+    "notes": "-10% cold climates"
+  },
+  {
+    "name": "Cuirassier Republican",
+    "unitType": "Melee",
+    "cost": 110,
+    "movement": 3,
+    "strength": 34,
+    "uniqueTo": "France",
+    "civilopediaText": ["Armored cavalry unit"],
+    "notes": "-20% vs spears"
+  },
+  {
+    "name": "Chasseur Alpin",
+    "unitType": "Melee",
+    "cost": 90,
+    "movement": 2,
+    "strength": 26,
+    "uniqueTo": "France",
+    "civilopediaText": ["Alpine infantry"],
+    "notes": "-10% on plains"
+  },
+  {
+    "name": "Char Schneider CA1",
+    "unitType": "Armored",
+    "cost": 130,
+    "movement": 3,
+    "strength": 40,
+    "uniqueTo": "France",
+    "civilopediaText": ["WWI era tank"],
+    "notes": "-20% vs anti-tank"
+  },
+  {
+    "name": "Char B1",
+    "unitType": "Armored",
+    "cost": 200,
+    "movement": 3,
+    "strength": 48,
+    "uniqueTo": "France",
+    "civilopediaText": ["Heavy tank"],
+    "notes": "-15% vs aircraft support"
+  },
+  {
+    "name": "AMX-56 Leclerc",
+    "unitType": "Armored",
+    "cost": 300,
+    "movement": 4,
+    "strength": 70,
+    "uniqueTo": "France",
+    "civilopediaText": ["Modern battle tank"],
+    "notes": "-10% in marsh"
+  },
+  {
+    "name": "Mirage 2000",
+    "unitType": "Air",
+    "cost": 220,
+    "movement": 6,
+    "strength": 55,
+    "uniqueTo": "France",
+    "civilopediaText": ["Modern fighter aircraft"],
+    "notes": "-10% vs modern SAMs"
+  },
+  {
+    "name": "Commandos Marine",
+    "unitType": "Melee",
+    "cost": 180,
+    "movement": 4,
+    "strength": 42,
+    "uniqueTo": "France",
+    "civilopediaText": ["Elite amphibious unit"],
+    "notes": "-10% vs mechanized units"
+  }
 ]
