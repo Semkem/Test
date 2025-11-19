@@ -6,12 +6,11 @@
     "startBias": ["Plains"],
     "uniqueTo": "France",
     "preferredVictoryType": "Cultural",
-
+    "icon": "NationIcon_France.png",
     "colors": {
       "innerColor": "#00205B",
       "outerColor": "#B70F0A"
     },
-
     "uniqueUnits": [
       "Franc Archer",
       "Chevalier Franc",
@@ -29,7 +28,6 @@
       "Mirage 2000",
       "Commandos Marine"
     ],
-
     "uniqueBuildings": [
       "Palais des Arts",
       "Salon Litteraire",
@@ -37,10 +35,8 @@
       "Elysee Palace",
       "Industrial Engineers Corps"
     ],
-
     "civilopediaText": [
-      { "text": "France has a long cultural and military history, reflected in a unique array of units and buildings." },
-      { "text": "This version of France is built for loyalty mechanics, tourism and advanced diplomacy." }
+      { "text": "France has a long cultural and military history." }
     ]
   }
 ]
