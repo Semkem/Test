@@ -8,8 +8,8 @@
     "preferredVictoryType": "Cultural",
     "icon": "NationIcon_France.png",
     "colors": {
-      "innerColor": "#00205B",
-      "outerColor": "#B70F0A"
+      "innerColor": [0, 56, 168],
+      "outerColor": [255, 255, 255]
     },
 
     "uniqueUnits": [
